@@ -1,0 +1,58 @@
+//typography
+$body-font: "Open Sans", sans-serif;
+$heading-font: "Poiret One", cursive;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.75rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+//colors
+$gold: #f0cb52;
+$aqua: #a4dce6;
+$pink: #f5cfed;
+$magenta: #e12b77;
+$charcoal: #333;
+$white: #fff;
+$blue: #adbde4;
+
+//global
+body {
+  margin: 0;
+  font-family: $body-font;
+  color: $charcoal;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

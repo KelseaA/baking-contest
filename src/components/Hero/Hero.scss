@@ -1,0 +1,15 @@
+@import "../../index.scss";
+
+.Hero {
+  background: $aqua url("../../images/teal-cupcakes.jpeg") no-repeat center;
+  background-size: cover;
+  padding: 4rem 2rem;
+}
+
+.Hero__text {
+  background-color: #fff;
+  max-width: 400px;
+  padding: 2rem 3rem;
+  position: relative;
+  z-index: 2;
+}

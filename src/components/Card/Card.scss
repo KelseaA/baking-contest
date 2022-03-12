@@ -1,0 +1,21 @@
+@import "../../index.scss";
+
+.Card {
+  text-decoration: none;
+  color: $charcoal;
+
+  &:hover {
+    color: $magenta;
+  }
+}
+
+.Card__img {
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Card__title {
+  padding: 1rem 0;
+}

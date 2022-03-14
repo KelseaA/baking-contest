@@ -2,18 +2,30 @@
 
 .Recipes {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   position: relative;
+
+  @media only screen and (min-width: 768px) {
+    padding: 2rem;
+  }
 }
 
 .Recipes__content {
   max-width: 800px;
-  margin: 0 auto 4rem;
+  margin: 0 auto 3rem;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 4rem;
+  }
 }
 
 .Recipes__list {
   display: grid;
   grid-gap: 1.5rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin-top: 3rem;
+
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

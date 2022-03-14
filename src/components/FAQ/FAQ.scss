@@ -3,8 +3,13 @@
 .FAQ {
   background-color: $pink;
   text-align: center;
-  padding: 2rem;
-  padding-bottom: 4rem;
+  padding: 1rem;
+  padding-bottom: 3rem;
+
+  @media only screen and (min-width: 768px) {
+    padding: 2rem;
+    padding-bottom: 4rem;
+  }
 }
 
 .FAQ__list {
@@ -13,7 +18,11 @@
   text-align: left;
 
   details {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+
+    @media only screen and (min-width: 768px) {
+      margin-bottom: 1.5rem;
+    }
 
     & ~ * {
       transition: all 1s ease-in;
@@ -21,7 +30,7 @@
   }
 
   summary {
-    background-color: darken($pink, 5%);
+    background-color: $white;
     padding: 0.75rem 1rem;
     list-style: none;
     font-weight: 500;
@@ -44,6 +53,8 @@
 
   details[open] {
     & > summary {
+      box-shadow: 1px 4px 6px $border-grey;
+
       &:after {
         transform: translateY(-50%) rotate(-180deg);
       }
@@ -51,7 +62,8 @@
 
     & > div {
       border-top: none;
-      background-color: lighten($pink, 3%);
+      background-color: $white;
+
       padding: 0.75rem 1rem;
     }
   }

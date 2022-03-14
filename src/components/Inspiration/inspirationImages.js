@@ -9,4 +9,12 @@ export const inspirationImages = [
   "https://i.pinimg.com/564x/9a/b7/0e/9ab70e935be454af2f3901cc0f7cb369.jpg",
   "https://i.pinimg.com/564x/93/2b/5e/932b5ec0864945781493a7d175a6eab2.jpg",
   "https://i.pinimg.com/564x/87/fc/c4/87fcc474743b8262ace06dfebd67927a.jpg",
+  "https://i.pinimg.com/564x/0e/84/0f/0e840fcb8fd532afec1146fe75d14457.jpg",
+  "https://i.pinimg.com/564x/ce/f7/b2/cef7b218f5bafa13fab5d80ff9fecaf8.jpg",
+  "https://i.pinimg.com/564x/31/5a/6f/315a6f36f90dc5e7ed86d97fbe62ba98.jpg",
+  "https://i.pinimg.com/564x/da/36/53/da3653e655b98fb042e83eb594114618.jpg",
+  "https://i.pinimg.com/564x/9b/0e/c5/9b0ec5cb460088d89c1ed1de308868f1.jpg",
+  "https://i.pinimg.com/564x/bf/e0/d4/bfe0d449e4c43e616eacdcc3d8f63248.jpg",
+  "https://i.pinimg.com/564x/ab/0f/f4/ab0ff4c09203d425a009eb93527a206a.jpg",
+  "https://i.pinimg.com/564x/35/f1/31/35f1316274b5f45529e7d24b859b9eba.jpg",
 ];

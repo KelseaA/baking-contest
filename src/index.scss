@@ -22,6 +22,11 @@ h2 {
 
 h3 {
   font-size: 2.25rem;
+  margin: 1.5rem 0;
+
+  @media only screen and (min-width: 768px) {
+    margin: 2.25rem 0;
+  }
 }
 
 h4 {
@@ -44,6 +49,7 @@ $magenta: #e12b77;
 $charcoal: #333;
 $white: #fff;
 $blue: #adbde4;
+$border-grey: #ebebeb;
 
 //global
 body {

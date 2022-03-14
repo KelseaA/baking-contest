@@ -3,15 +3,28 @@
 .Inspiration {
   background-color: $gold;
   text-align: center;
-  padding: 2rem 4rem 4rem;
+  padding: 1rem 1rem 3rem;
   position: relative;
+
+  @media only screen and (min-width: 768px) {
+    padding: 2rem 4rem 4rem;
+  }
 }
 
 .Inspiration__images {
-  margin: 3rem 0 4rem;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem 0;
+
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media only screen and (min-width: 1080px) {
+    grid-template-columns: repeat(6, 1fr);
+    margin: 3rem 0 4rem;
+  }
 }
 
 .Inspiration__img {

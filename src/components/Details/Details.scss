@@ -30,8 +30,20 @@
 
 .Details__text {
   padding: 1rem 1rem 3rem;
+  max-width: 525px;
+  margin-left: 0;
 
   @media only screen and (min-width: 768px) {
     padding: 2rem 4rem 4rem;
   }
+}
+
+.Details__subtitle {
+  margin: 2rem 0 0;
+}
+
+.Details__sub {
+  border-left: 4px solid $aqua;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
 }

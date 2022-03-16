@@ -5,13 +5,13 @@ import "./Recipes.scss";
 
 const Recipes = () => {
   return (
-    <section className="Recipes">
+    <section className="Recipes" id="recipes">
       <h3>Recipes</h3>
       <div className="Recipes__content">
         <p>
-          Nothing wrong with some good box mix from the store (hello, yellow
-          cake) but if you'd like to stretch your baking muscles, check out
-          these from-scratch recipes!
+          There's nothing wrong with store-bought cake mix (hello, funfetti),
+          but if you'd like to stretch your baking muscles, check out these
+          from-scratch recipes!
         </p>
         <div className="Recipes__list">
           {recipeList.map((recipe, index) => {

@@ -1,19 +1,15 @@
 import { FAQList } from "./FAQList";
+import Accordion from "../Accordion/Accordion";
 
 import "./FAQ.scss";
 
 const FAQ = () => {
   return (
-    <section className="FAQ">
+    <section className="FAQ" id="faq">
       <h3>FAQ</h3>
       <div className="FAQ__list">
-        {FAQList.map((item) => {
-          return (
-            <details key={item.question}>
-              <summary>{item.question}</summary>
-              <div>{item.answer}</div>
-            </details>
-          );
+        {FAQList.map(({ question, answer }, index) => {
+          return <Accordion key={index} title={question} content={answer} />;
         })}
       </div>
     </section>

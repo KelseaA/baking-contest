@@ -5,7 +5,7 @@ import "./Inspiration.scss";
 
 const Inspiration = () => {
   return (
-    <section className="Inspiration">
+    <section className="Inspiration" id="inspiration">
       <h3>Inspiration</h3>
       <p>
         Want some decorating ideas? Check out the pics below for cute spring

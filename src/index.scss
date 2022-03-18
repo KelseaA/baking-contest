@@ -63,6 +63,31 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
+
+  @media only screen and (min-width: 480px) {
+    max-width: 720px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    max-width: 960px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    max-width: 1140px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    max-width: 1320px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $charcoal;
+  transition: color 200ms ease-out;
+
+  &:hover {
+    color: $magenta;
+  }
 }

@@ -3,6 +3,9 @@
 .Nav {
   padding: 1rem;
   background-color: $aqua;
+}
+
+.Nav__wrapper {
   display: flex;
   justify-content: center;
 
@@ -17,10 +20,8 @@
 
 .Nav__link {
   margin-left: 1rem;
-  text-decoration: none;
-  color: $charcoal;
 
-  &:hover {
-    color: $magenta;
+  @media only screen and (min-width: 768px) {
+    margin-left: 2rem;
   }
 }

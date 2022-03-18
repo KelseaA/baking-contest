@@ -2,7 +2,9 @@
 
 .Details {
   text-align: center;
+}
 
+.Details__wrapper {
   @media only screen and (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -15,16 +17,34 @@
   background-size: cover;
   position: relative;
 
-  &:before {
+  &:before,
+  &:after {
     content: "";
     position: absolute;
     width: 100%;
+    background-color: $aqua;
+
+    @media only screen and (min-width: 768px) {
+      width: 125%;
+    }
+
+    @media only screen and (min-width: 1640px) {
+      width: 200%;
+    }
+  }
+
+  &:before {
     height: 100%;
     top: -100%;
-    left: 0;
-    background-color: $aqua;
+    right: 0;
     clip-path: polygon(0 0, 100% 100%, 0 100%);
     z-index: 1;
+  }
+
+  &:after {
+    height: 200%;
+    right: 100%;
+    top: 0;
   }
 }
 
@@ -34,7 +54,7 @@
   margin-left: 0;
 
   @media only screen and (min-width: 768px) {
-    padding: 2rem 4rem 4rem;
+    padding: 2rem 2rem 4rem 4rem;
   }
 }
 

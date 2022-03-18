@@ -10,6 +10,11 @@ export const FAQList = [
       "Nope, we encourage you to bake and decorate with your family and friends. The more the merrier!",
   },
   {
+    question: "Is Bright Cellars providing supplies?",
+    answer:
+      "We'll be providing $[TBD] to each participant. Keep your receipt when you buy your baking supplies and submit to [TBD] for reimbursement. Reach out to [TBD] for any questions.",
+  },
+  {
     question: "Can I post multiple photos of my cupcakes to the contest?",
     answer:
       "You can only post one contest entry in the #baking-contest channel but you can post additional photos, recipes, and whatever else you'd like to share in the #general channel.",
@@ -26,7 +31,7 @@ export const FAQList = [
   },
   {
     question: "What do the winners get?",
-    answer: "The winner of each category gets [TBD] perk points.",
+    answer: "The winner of each category gets PERK points.",
   },
   {
     question: "How are the winners decided?",

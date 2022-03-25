@@ -12,7 +12,7 @@ export const FAQList = [
   {
     question: "Is Bright Cellars providing supplies?",
     answer:
-      "We'll be providing $[TBD] to each participant. Keep your receipt when you buy your baking supplies and submit to [TBD] for reimbursement. Reach out to [TBD] for any questions.",
+      "We'll be reimbursing up to $15 for supplies to each participant. More details on this to come.",
   },
   {
     question: "Can I post multiple photos of my cupcakes to the contest?",
@@ -27,7 +27,7 @@ export const FAQList = [
   {
     question: "What are the categories I can win?",
     answer:
-      "The categories are Most Creative, Best Interpretation of the Theme, and [TBD].",
+      "The categories are Most Creative, Best Interpretation of the Theme (spring), and People's Choice.",
   },
   {
     question: "What do the winners get?",
@@ -36,7 +36,7 @@ export const FAQList = [
   {
     question: "How are the winners decided?",
     answer:
-      "We will open voting on April 13th to the entire company. You will be able to cast your votes in each category.",
+      "A panel of judges will choose the winner for the Most Creative and Best Interpretation of the Theme categories. For the People's Choice category, we will open voting on April 13th to the entire company.",
   },
   {
     question: "When will the winners be announced?",

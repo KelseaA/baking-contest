@@ -18,7 +18,7 @@ const Details = () => {
           <p className="Details__sub">
             To enter the contest, post your best pic of your decorated cupcakes
             in the #baking-contest slack channel by EOD April 12th. There will
-            be [TBD] categories and the winner of each will win PERK points!
+            be 3 categories and the winner of each will win PERK points!
           </p>
 
           <p>

@@ -12,7 +12,7 @@ export const FAQList = [
   {
     question: "Is Bright Cellars providing supplies?",
     answer:
-      "We'll be reimbursing up to $15 for supplies to each participant. More details on this to come.",
+      "We'll be reimbursing up to $15 for supplies to each participant. Reach out to Morgan LaPlant to get setup in Airbase if you're not already.",
   },
   {
     question: "Can I post multiple photos of my cupcakes to the contest?",
